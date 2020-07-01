@@ -18,7 +18,7 @@ library(gapminder)
 
 Here, I re-examine the analysis of Oeppen and Vaupal (2002)
 
-
+This is summarizing the data
 #Analysis
 ```{r}
 data("gapminder_unfiltered")
