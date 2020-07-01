@@ -1,0 +1,22 @@
+---
+title: "life_exp_analysis"
+author: "Michael Wadley"
+date: "7/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(gapminder)
+```
+
+#Abstract
+
+Here, I re-examine the analysis of Oeppen and Vaupal (2002)
+
+
+#Analysis
