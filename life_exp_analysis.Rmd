@@ -32,3 +32,11 @@ head(sundat)
   
 ```
 
+```{r}
+sundat %>%
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_point(aes(color = country)) +
+  theme_bw() +
+  geom_smooth(method = "lm", se = FALSE)
+```
+
